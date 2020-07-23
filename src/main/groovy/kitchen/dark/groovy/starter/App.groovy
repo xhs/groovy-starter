@@ -1,12 +1,10 @@
 package kitchen.dark.groovy.starter
 
-import org.slf4j.LoggerFactory
+import groovy.util.logging.Slf4j
 
+@Slf4j
 class App {
-
-    private final static logger = LoggerFactory.getLogger(App)
-
     static void main(String... args) {
-        logger.info("Hello groovy.")
+        log.info("Hello groovy.")
     }
 }
